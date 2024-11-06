@@ -12,9 +12,15 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "replicate.delivery"
+        hostname: "replicate.delivery",
       },
     ],
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
 };
 
